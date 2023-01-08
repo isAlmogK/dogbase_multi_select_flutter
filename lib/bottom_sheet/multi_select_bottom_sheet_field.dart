@@ -494,8 +494,9 @@ class __MultiSelectBottomSheetFieldViewState<V>
                     child: Text(
                       widget.state!.errorText!,
                       style: TextStyle(
-                        color: Colors.red[800],
-                        fontSize: 12.5,
+                        color: Color(0xFFE76F51),
+                         fontFamily: 'Nunito SemiBold',
+                         fontSize: 18,
                       ),
                     ),
                   ),
